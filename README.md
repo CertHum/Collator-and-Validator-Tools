@@ -1,2 +1,2 @@
 # Collator-and-Validator-Tools
-Tools to support
+Tools to support collating and validating on Substrate-based networks.
