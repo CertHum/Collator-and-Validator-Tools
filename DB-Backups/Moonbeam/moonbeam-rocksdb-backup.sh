@@ -44,7 +44,7 @@ date
 echo
 
 # Backup the files using tar and zstd
-tar -I 'zstd -v -<#-of-procs-to-use> -T7 -D /home/ubuntu/moonbeam-sst.dict' -cvf $dest/$archive_file $backup_files
+tar -I 'zstd -v -<#-of-procs-to-use> -T7 -D /home/<your-user>/moonbeam-sst.dict' -cvf $dest/$archive_file $backup_files
 
 # Print end status message.
 echo
